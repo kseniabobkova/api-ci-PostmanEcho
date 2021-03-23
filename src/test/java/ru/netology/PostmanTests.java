@@ -19,7 +19,7 @@ public class PostmanTests {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data",equalTo("вася"))
+                .body("data",equalTo("ваня"))
         ;
 
     }
